@@ -1,4 +1,4 @@
-# 🌊 IoT Monitoring Dataset of Water Quality and Tilapia Health in Aquaculture Ponds (Montería, Colombia - 2024)
+# IoT Monitoring Dataset of Water Quality and Tilapia Health in Aquaculture Ponds (Montería, Colombia - 2024)
 
 This project explores the application of logistic regression to analyze a real-world aquaculture dataset collected using IoT sensors. The dataset includes water quality parameters and tilapia health indicators gathered over six months in Montería, Colombia.
 
