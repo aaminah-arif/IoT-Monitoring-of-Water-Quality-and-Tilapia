@@ -88,18 +88,20 @@ $$
 
 - **Comparison:** Training accuracy vs. library implementation.
 
-### 3. Using Newton-Raphson Algorithm
+### 🔹 3. Using Newton-Raphson Algorithm
 
-- Implements:
+The Newton-Raphson method implements the following update rule:
 
-\[
+$$
 \theta := \theta - H^{-1} \nabla J(\theta)
-\]
+$$
 
-Where \( H \) is the Hessian matrix of the cost function.
+Where:
+- \( H \) is the Hessian matrix of the cost function.
 
-- Usually converges faster than GD for convex problems like logistic regression
-- **Comparison:** Iteration count and final accuracy vs. GD and library-based method
+This method usually converges faster than Gradient Descent (GD) for convex problems like logistic regression.
+
+**Comparison:** Iteration count and final accuracy vs. GD and library-based method.
 
 ## Usage Notes
 
