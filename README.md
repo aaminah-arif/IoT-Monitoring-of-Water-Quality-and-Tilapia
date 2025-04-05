@@ -35,15 +35,18 @@ We aim to:
    - Newton-Raphson Algorithm
 3. Compare performance and optimal parameters from each method.
 
-## Logistic Regression Model
+## 📐 Logistic Regression Model
 
 The logistic regression hypothesis is defined as:
-$ h_{\theta}(X) = \sigma(X\theta) = \frac{1}{1 + e^{-X\theta}} $
+
+$$
+h_{\theta}(X) = \sigma(X\theta) = \frac{1}{1 + e^{-X\theta}}
+$$
 
 Where:
-X is the feature matrix (including a bias term).
-$\theta$ is the parameter vector.
-\( h_\theta(x) \): Probability that the fish is "At Risk"
+- \( X \) is the feature matrix (including a bias term).
+- \( \theta \) is the parameter vector.
+- \( h_{\theta}(X) \) is the probability that the fish is "At Risk".
 
 ## Data Preparation
 
@@ -57,7 +60,7 @@ $\theta$ is the parameter vector.
 ### 3. Train-Test Split:
 - 80% for training, 20% for testing
 
-## 🧪 Model Training
+## Model Training
 
 ### 1. Using Python Libraries
 
