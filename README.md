@@ -1,14 +1,14 @@
-# IoT Monitoring Dataset of Water Quality and Tilapia Health in Aquaculture Ponds (Montería, Colombia - 2024)
+# 🌊 IoT Monitoring Dataset of Water Quality and Tilapia Health in Aquaculture Ponds (Montería, Colombia - 2024)
 
 This project explores the application of logistic regression to analyze a real-world aquaculture dataset collected using IoT sensors. The dataset includes water quality parameters and tilapia health indicators gathered over six months in Montería, Colombia.
 
 The goal is to build a predictive model for fish health status ("Stable" vs. "At Risk") using environmental and operational variables.
 
-## Dataset Description
+## 📂 Dataset Description
 
 **File:** `Data Model IoTMLCQ 2024.xlsx` – Contains hourly sensor and health data from January to June 2024.
 
-### Features (Inputs)
+### 📝 Features (Inputs)
 - `Temperature (°C)`
 - `Dissolved Oxygen (mg/L)`
 - `pH`
@@ -19,12 +19,12 @@ The goal is to build a predictive model for fish health status ("Stable" vs. "At
 - `Thermal Risk Index` (High/Normal → Encoded)
 - `Low Oxygen Alert` (Critical/Safe → Encoded)
 
-### Target (Output)
+### 🎯 Target (Output)
 - `Health Status`: Categorical feature representing fish health condition:
   - `Stable` → 0
   - `At Risk` → 1
 
-## Objective
+## 🎯 Objective
 
 We aim to:
 
@@ -48,7 +48,7 @@ Where:
 - \( \theta \) is the parameter vector.
 - \( h_{\theta}(X) \) is the probability that the fish is "At Risk".
 
-## Data Preparation
+## 🧹 Data Preparation
 
 ### 1. Cleaning:
 - Missing data interpolated using linear methods
@@ -60,24 +60,17 @@ Where:
 ### 3. Train-Test Split:
 - 80% for training, 20% for testing
 
-## Model Training
-
-### 1. Using Python Libraries
-
-- **Library:** `scikit-learn`
-- **Model:** `LogisticRegression(solver='liblinear')`
-- **Optimal Parameters:** Displayed after fitting
-- **Evaluation Metrics:** Accuracy, Precision, Recall, F1-score Confusion Matrix
-
 ## 🧪 Model Training
 
 ### 🔹 1. Using Python Libraries
+
 - **Library:** `scikit-learn`
 - **Model:** `LogisticRegression(solver='liblinear')`
 - **Optimal Parameters:** Displayed after fitting
 - **Evaluation Metrics:** Accuracy, Precision, Recall, F1-score, Confusion Matrix
 
-### 2. Using Gradient Descent
+### 🔹 2. Using Gradient Descent
+
 - Implemented from scratch.
 - Learning Rate (α) tuned via grid search.
 - Parameters updated using:
@@ -103,7 +96,7 @@ This method usually converges faster than Gradient Descent (GD) for convex probl
 
 **Comparison:** Iteration count and final accuracy vs. GD and library-based method.
 
-## Usage Notes
+## 📝 Usage Notes
 
 - This dataset is ideal for research in **aquaculture monitoring**, **fish health modeling**, and **IoT-driven environmental analytics**.
 - Sensor accuracy is ensured via routine calibration.
