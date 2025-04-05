@@ -69,17 +69,24 @@ Where:
 - **Optimal Parameters:** Displayed after fitting
 - **Evaluation Metrics:** Accuracy, Precision, Recall, F1-score Confusion Matrix
 
-### 2. Using Gradient Descent
+## 🧪 Model Training
 
-- Implemented from scratch
-- Learning Rate (α) tuned via grid search
+### 🔹 1. Using Python Libraries
+- **Library:** `scikit-learn`
+- **Model:** `LogisticRegression(solver='liblinear')`
+- **Optimal Parameters:** Displayed after fitting
+- **Evaluation Metrics:** Accuracy, Precision, Recall, F1-score, Confusion Matrix
+
+### 2. Using Gradient Descent
+- Implemented from scratch.
+- Learning Rate (α) tuned via grid search.
 - Parameters updated using:
 
-\[
+$$
 \theta := \theta - \alpha \nabla J(\theta)
-\]
+$$
 
-- **Comparison:** Training accuracy vs. library implementation
+- **Comparison:** Training accuracy vs. library implementation.
 
 ### 3. Using Newton-Raphson Algorithm
 
